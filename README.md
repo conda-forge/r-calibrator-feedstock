@@ -1,11 +1,11 @@
-About r-calibrator
-==================
+About r-calibrator-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-calibrator-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/RobinHankin/calibrator.git
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-calibrator-feedstock/blob/main/LICENSE.txt)
 
 Summary: Performs Bayesian calibration of computer models as per Kennedy and O'Hagan 2001.  The package includes routines to find the hyperparameters and parameters; see the help page for stage1() for a worked example using the toy dataset.  A tutorial is provided in the calex.Rnw vignette; and a suite of especially simple one dimensional examples appears in inst/doc/one.dim/.
 
