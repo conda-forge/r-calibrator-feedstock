@@ -1,4 +1,4 @@
-{% set version = '1.2-8' %}
+{% set version = "1.2-9" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/calibrator_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/calibrator/calibrator_{{ version }}.tar.gz
-  sha256: 5e04742c84dec56461c38dd5a64faff348871703142c55de94a9996ceb0d2fd5
+  sha256: 44ef269f8ffddca62f27b2ff9421576cbbe02bdf34aab6bdcceb9e1e2cfe2082
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -41,11 +41,8 @@ test:
 about:
   home: https://github.com/RobinHankin/calibrator.git
   license: GPL-2.0-only
-  summary: Performs Bayesian calibration of computer models as per Kennedy and O'Hagan 2001.  The
-    package includes routines to find the hyperparameters and parameters; see the help
-    page for stage1() for a worked example using the toy dataset.  A tutorial is provided
-    in the calex.Rnw vignette; and a suite of especially simple one dimensional examples
-    appears in inst/doc/one.dim/.
+  summary: Performs Bayesian calibration of computer models as per Kennedy and O'Hagan 2001.  The package includes routines to find the hyperparameters and parameters; see the help page for stage1() for a worked example using the toy dataset.  A tutorial is provided in the calex.Rnw vignette; and a suite of especially 
+    simple one dimensional examples appears in inst/doc/one.dim/.
   license_family: GPL2
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
